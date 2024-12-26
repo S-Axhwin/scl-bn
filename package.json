@@ -1,7 +1,8 @@
 {
   "name": "sch-bn",
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "dev": "bun run --hot src/index.ts",
+    "drizzle:migrate": "bun run drizzle-kit generate && bun run drizzle-kit push"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
