@@ -33,7 +33,13 @@ services:
       DATABASE_URL: postgres://user:password@db:5432/mydatabase
     volumes:
       - .:/app
-    command: ["bun", "run", "drizzle:migrate"]
+    entrypoint: >
+      sh -c "
+      bun install &&
+      bun run drizzle:generate &&
+      bun run drizzle:migrate
+      "
+    command: []
 
 volumes:
   postgres_data:
