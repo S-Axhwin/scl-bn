@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "bun run --hot src/index.ts",
     "drizzle:generate": "drizzle-kit generate",
-    "drizzle:migrate": "drizzle-push"
+    "drizzle:migrate": "drizzle-kit push"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
