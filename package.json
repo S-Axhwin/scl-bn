@@ -2,6 +2,7 @@
   "name": "sch-bn",
   "scripts": {
     "dev": "bun run --hot src/index.ts",
+    "drizzle:generate": "drizzle-kit generate",
     "drizzle:migrate": "drizzle-push"
   },
   "dependencies": {
