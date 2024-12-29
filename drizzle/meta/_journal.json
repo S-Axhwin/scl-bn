@@ -8,6 +8,20 @@
       "when": 1735199256834,
       "tag": "0000_ambitious_tigra",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1735308067558,
+      "tag": "0001_busy_winter_soldier",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1735324935446,
+      "tag": "0002_workable_swarm",
+      "breakpoints": true
     }
   ]
 }

@@ -1,3 +1,4 @@
 import 'dotenv/config';
 import { drizzle } from 'drizzle-orm/node-postgres';
-const db = drizzle(process.env.DATABASE_URL!);
+
+export const db = drizzle("postgresql://postgres:postgres@localhost:5432/mydb?schema=public");
